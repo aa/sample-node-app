@@ -1,0 +1,10 @@
+{
+  "name":"pure-anchorage-9855",
+  "scripts":{},
+  "env":{
+    "VAR":{
+      "required":true
+    }
+  },
+  "addons":[]
+}
