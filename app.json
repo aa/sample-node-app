@@ -1,16 +1,29 @@
 {
   "name": "sample-node-app",
+  "success_url": "/success",
   "scripts": {
+    "pr-predestroy": "echo 'Good bye!'"
   },
   "env": {
-    "SOME_CONFIG": "true"
+    "SOME_CONFIG": "true",
+    "VAR": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
   },
   "addons": [
 
   ],
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-addon-wait"
     }
   ]
 }
