@@ -5,6 +5,7 @@
     "pr-predestroy": "echo 'Good bye!'"
   },
   "env": {
+    "SOME_CONFIG": "true",
     "VAR": {
       "required": true
     }
