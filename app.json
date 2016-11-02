@@ -8,6 +8,9 @@
     "SOME_CONFIG": "true",
     "VAR": {
       "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "required": true
     }
   },
   "formation": {
