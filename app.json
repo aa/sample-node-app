@@ -6,7 +6,7 @@
   },
   "env": {
     "SOME_CONFIG": "true",
-    "VAR": {
+    "HEROKU_APP_NAME": {
       "required": true
     }
   },
